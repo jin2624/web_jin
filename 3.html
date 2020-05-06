@@ -1,70 +1,163 @@
 <!doctype html>
 <html>
 <head>
-  <title>About -DHA</title>
+  <title>ABOUT_DHA</title>
   <style>
-  body{background: linear-gradient(to right, #a8edea, #fed6e3);}
+  @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
+  .multi-layout{column-count: 2;  column-gap: 3px;}
+    body{background: linear-gradient(to right, #a8edea, #fed6e3);}
 
-  h2{background-color: #e3f4ff;}
-  h3{background-color: white;}
+    #header {padding: 5em 5em 1em 5em ;text-align: center;}
+		    #header h1 {margin: 0 0 0.25em 0;}
+		  #header p {font-size: 1.25em;letter-spacing: -0.025em;}
+		  #header.alt {padding: 7em 5em 4em 5em ;}
+		  #header.alt h1 {font-size: 3.25em;}
+
+    #nav {color: #636363;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+  		width: 180em;
+      margin-left: 1em;
+  		max-width: calc(100% - 4em);
+  		padding: 1em;
+  		background-color: #f7f7f7;
+  		text-align: center;}
+
+  		#nav ul :hover {color: #636363;}
+  		#nav ul {margin: 0; padding: 0; list-style: none;}
+
+  		#nav ul li {
+  			display: inline-block;
+  			margin: 0 2em;
+        vertical-align: middle;}
+
+  			#nav ul li a {
+  					display: inline-block;
+  					height: 2.25em;
+  					line-height: 2.25em;
+  					padding: 0 1.25em;
+  					border: 0;
+  					border-radius: 8px;
+  					box-shadow: inset 0 0 0 1px transparent;}
+
+  			#nav ul li a:hover {
+  					background-color: rgba(222, 222, 222, 0.25);}
+
+    #main {background-color: #ffffff; color: #636363;
+      border-bottom-right-radius: 1em;
+      border-bottom-left-radius: 1em;
+      width: 180em;
+      margin-left: 1em;
+      max-width: calc(100% - 4em);
+      padding: 1em;}
+
+    #table{
+      width: 100%;
+      border-top: 1px solid #444444;
+      border-collapse: collapse;}
+      th, td {border: 1px solid #444444; padding: 15px;}
+
+    body{margin-bottom: 40px;}
+    h1{color: #424242;}
+
+
+    h3{margin: 30px; border: 30px solid #dddddd; padding: 30px;}
+    h5{color: skyblue;}
+
+
+
+  .box {width: 75px;
+      height: 75px;
+      border-radius: 70%;
+      overflow: hidden;
+      margin-left: 30px;
+      margin-top: 30px;}
+
+  .profile {
+      width: 120%;
+      height: 100%;
+      object-fit: cover;}
+
+
+
   </style>
   <meta charset="utf-8">
 </head>
 
 <body>
-  <h1 align="center"><a href="index.html"><p style="margin-top:30px">
-    Jin's <i>Portfolio</i></a></h1>
+    <div class='box' style = "float:left; margin-right:30px;">
+      <a href="index.html">
+        <img class="profile" src="color_icon.JPG" align='middle'>
+        </a>
+    </div>
 
-  <ol>
-    <li><a href="1.html">INTRODUCTION</a></li>
-    <li><a href="2.html">AD&PR</a></li>
-    <li><a href="3.html">DHA</a></li>
-  </ol>
+    <div style = "float:firght">
+      <br>
+        <h1 style="font-family: 'Nunito', sans-serif;">Yujin's Portfolio Web-Site</h1>
+    </div>
 
-  <h2>DHA</h2>
-  <h4>저는 현재 복수전공으로 디지털인문예술입문 수업을 듣고 있으며, 다음은 제가 수업을 통해 배운 것들입니다.</h>
-
-  <h3 style="margin-right:1200px;">✏️[20_1_디지털인문예술입문]수업</h>
-  <h5>① 구글 사이트를 이용한 웹페이지 제작</h5>
-
-  <div style = "float:left; margin-right:30px;">
-    <img src="web-site.png"/width="600" height="315">
-  </div>
-
-  <div style = "float:left">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/l5hmmSDDj-s" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  <div style="clear:both;">
-    <a href="https://sites.google.com/view/movieallnight/home?authuser=0" target="_blank" title="제작한 홈페이지로 바로가기"> >>MOVIE_ALL_NIGHT 바로가기</a>
-
-    <br><P>
-      <h5>② 구글 GA이용하기</h5>
-      <img src="GA.jpg"/width="600" height="315">
-    </P>
-
-  </div>
-
-  <br><p>
-  <h5>③ Figma를 이용해 어플리케이션 만들기</h5>
-
-  <div style = "float:left; margin-right:30px;">
-    <img src="피그마메인.png"/width="280" height="450">
-  </div>
-
-  <div style = "float:left; margin-right:45px;">
-    <img src="내용.png"/width="280" height="450">
-  </div>
-
-  <div style = "float:left">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/etuJYGwq_zc" frameborder="0"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div><div style="clear:both;">
-    <a href="https://www.figma.com/file/FVFQw6o7QKXYR3MhXlOK43/_%ED%95%9C-%EC%A4%84-%EC%A7%88%EB%AC%B8?node-id=0%3A1" target="_blank" title="제작한 Figma 보기">
-      >>-한줄, 질문 바로가기</a>
+  <br><br>
+    <!-- 목차 -->
+      <nav id="nav">
+        <ul style="font-family: 'Nunito', sans-serif;">
+          <li><a href="1.html" class="active">INTRODUCTION</a></li>
+          <li><a href="2.html">AD&PR</a></li>
+          <li><a href="3.html">DHA</a></li>
+          <li><a href="#cta">CONTACT</a></li>
+        </ul>
+      </nav>
 
 
-  </div>
+
+          <!-- Main -->
+            <div id="main">
+
+        <h2 style="font-family: 'Hi Melody', cursive;">Digital Arts and Humanities</h2>
+
+        <h4>저는 현재 복수전공으로 디지털인문예술을 배우고 있습니다.</h>
+
+          <h5 style="margin-right:1125px;">✏️[20_1_디지털인문예술입문]수업</h>
+            <h6>① 구글 사이트를 이용한 웹페이지 제작</h6>
+
+              <div style = "float:left; margin-right:30px;">
+                <img src="web-site.png"/width="600" height="315">
+              </div>
+
+              <div style = "float:left">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/l5hmmSDDj-s" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div style="clear:both;">
+                <a href="https://sites.google.com/view/movieallnight/home?authuser=0" target="_blank" title="제작한 홈페이지로 바로가기"> >>MOVIE_ALL_NIGHT 바로가기</a>
+
+                <br><br><P>
+                  <h6>② 구글 GA이용하기</h6>
+                  <img src="GA.jpg"/width="600" height="315">
+                </P>
+
+              </div>
+
+              <br><p>
+              <h6>③ Figma를 이용해 어플리케이션 만들기</h6>
+
+              <div style = "float:left; margin-right:30px;">
+                <img src="figma_main.png"/width="280" height="450">
+              </div>
+
+              <div style = "float:left; margin-right:45px;">
+                <img src="figma_content.png"/width="280" height="450">
+              </div>
+
+              <div style = "float:left">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/etuJYGwq_zc" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div><div style="clear:both;">
+                <a href="https://www.figma.com/file/FVFQw6o7QKXYR3MhXlOK43/_%ED%95%9C-%EC%A4%84-%EC%A7%88%EB%AC%B8?node-id=0%3A1" target="_blank" title="제작한 Figma 보기">
+                  >>-한줄, 질문 바로가기</a>
+
+
+              </div>
 
 </body>
 </html>

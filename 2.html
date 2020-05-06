@@ -1,46 +1,141 @@
 <!doctype html>
 <html>
 <head>
-  <title>About - AD&PR</title>
+  <title>ABOUT_AD&PR</title>
   <style>
-  body{background: linear-gradient(to right, #a8edea, #fed6e3);}
+    @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
+  .multi-layout{column-count: 2;  column-gap: 3px;}
+    body{background: linear-gradient(to right, #a8edea, #fed6e3);}
 
-  h2{background-color: #e3f4ff;}
-  h3{background-color: white;}
+    #header {padding: 5em 5em 1em 5em ;text-align: center;}
+		    #header h1 {margin: 0 0 0.25em 0;}
+		  #header p {font-size: 1.25em;letter-spacing: -0.025em;}
+		  #header.alt {padding: 7em 5em 4em 5em ;}
+		  #header.alt h1 {font-size: 3.25em;}
+
+    #nav {color: #636363;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+  		width: 180em;
+      margin-left: 1em;
+  		max-width: calc(100% - 4em);
+  		padding: 1em;
+  		background-color: #f7f7f7;
+  		text-align: center;}
+
+  		#nav ul :hover {color: #636363;}
+  		#nav ul {margin: 0; padding: 0; list-style: none;}
+
+  		#nav ul li {
+  			display: inline-block;
+  			margin: 0 2em;
+        vertical-align: middle;}
+
+  			#nav ul li a {
+  					display: inline-block;
+  					height: 2.25em;
+  					line-height: 2.25em;
+  					padding: 0 1.25em;
+  					border: 0;
+  					border-radius: 8px;
+  					box-shadow: inset 0 0 0 1px transparent;}
+
+  			#nav ul li a:hover {
+  					background-color: rgba(222, 222, 222, 0.25);}
+
+    #main {background-color: #ffffff; color: #636363;
+      border-bottom-right-radius: 1em;
+      border-bottom-left-radius: 1em;
+      width: 180em;
+      margin-left: 1em;
+      max-width: calc(100% - 4em);
+      padding: 1em;}
+
+    #table{
+      width: 100%;
+      border-top: 1px solid #444444;
+      border-collapse: collapse;}
+      th, td {border: 1px solid #444444; padding: 15px;}
+
+    body{margin-bottom: 40px;}
+    h1{color: #424242;}
+
+
+    h3{margin: 30px; border: 30px solid #dddddd; padding: 30px;}
+    h5{color: skyblue;}
+
+
+
+  .box {width: 75px;
+      height: 75px;
+      border-radius: 70%;
+      overflow: hidden;
+      margin-left: 30px;
+      margin-top: 30px;}
+
+  .profile {
+      width: 120%;
+      height: 100%;
+      object-fit: cover;}
+
+
 
   </style>
   <meta charset="utf-8">
 </head>
 
 <body>
-  <h1 align="center"><a href="index.html"><p style="margin-top:30px">
-    Jin's <i>Portfolio</i></a></h1>
-  <ol>
-    <li><a href="1.html">INTRODUCTION</a></li>
-    <li><a href="2.html">AD&PR</a></li>
-    <li><a href="3.html">DHA</a></li>
-  </ol>
+    <div class='box' style = "float:left; margin-right:30px;">
+      <a href="index.html">
+        <img class="profile" src="color_icon.JPG" align='middle'>
+        </a>
+    </div>
 
-  <h2>AD&PR</h2>
-  <h4>제 전공은 광고홍보학과이며, 다음은 제가 수업을 통해 실습한 것들입니다.</h>
+    <div style = "float:firght">
+      <br>
+        <h1 style="font-family: 'Nunito', sans-serif;">Yujin's Portfolio Web-Site</h1>
+    </div>
 
-  <h3 style="margin-right:1125px;">✏️[19_1_광고홍보그래픽커뮤니케이션]수업</h>
 
-  <p><h5>
-  <table border="1">
+  <br><br>
+    <!-- 목차 -->
+      <nav id="nav">
+        <ul style="font-family: 'Nunito', sans-serif;">
+          <li><a href="1.html" class="active">INTRODUCTION</a></li>
+          <li><a href="2.html">AD&PR</a></li>
+          <li><a href="3.html">DHA</a></li>
+          <li><a href="#cta">CONTACT</a></li>
+        </ul>
+      </nav>
+
+
+
+          <!-- Main -->
+            <div id="main">
+
+        <h2  style="font-family: 'Hi Melody', cursive;"font-size: 120%>Advertising & Public Relations</h2>
+
+        <h4>제 전공은 광고홍보학과이며, 다음은 제가 수업을 통해 실습한 것들입니다.</h>
+
+          <h5 style="margin-right:1125px;">✏️[19_1_광고홍보그래픽커뮤니케이션]수업</h>
+
+            <p><h6>
+  <table border="1" style="border-collapse: collapse;">
     <tr align = center>
-      <th>포토샵</th>
-      <th>일러스트</th>
+      <th>PHOTOSHOP</th>
+      <th>ILLUSTRATION</th>
     </tr>
     <tr>
-      <td><img src="포토샵.png" width="400px;" height="550px;"></td>
-      <td><img src="일러스트.png" width="500px;" height="500px;"></td>
+      <td><img src="photoshop.PNG" width="400px;" height="550px;"></td>
+      <td><img src="illust.PNG" width="500px;" height="500px;"></td>
   </table>
   </p></h5>
 
-  <h3 style="margin-right:1215px;">✏️[19_2_광고홍보영상기초]수업</h>
-  <p><h5>영상제작 실습 - 정관장[아이패스]광고재연</h5>
-    <video src="영상제작.mp4"width="600" height="350" autoplay controls></p>
+  <h5 style="margin-right:1215px;" >✏️[19_2_광고홍보영상기초]수업</h>
+    <p><h6>영상제작 실습 - 정관장[아이패스]광고재연</h5>
+      <video src="video.mp4"width="600" height="350" autoplay controls></p>
+
 
 
 

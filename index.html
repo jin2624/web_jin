@@ -2,11 +2,64 @@
 <html>
 <head>
   <title>JIN'S WEB</title>
-  <style>
-.multi-layout{column-count: 2;  column-gap: 16px;}
-  body{background: linear-gradient(to right, #a8edea, #fed6e3);}
 
-  h2{background-color: #e3f4ff;}
+  <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
+  .multi-layout{column-count: 2;  column-gap: 25px;}
+    body{background: linear-gradient(to right, #a8edea, #fed6e3);}
+
+    #header {padding: 5em 5em 1em 5em ;text-align: center;}
+		    #header h1 {margin: 0 0 0.25em 0;}
+		  #header p {font-size: 1.25em;letter-spacing: -0.025em;}
+		  #header.alt {padding: 7em 5em 4em 5em ;}
+		  #header.alt h1 {font-size: 3.25em;}
+
+    #nav {color: #636363;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+  		width: 180em;
+      margin-left: 1em;
+  		max-width: calc(100% - 4em);
+  		padding: 1em;
+  		background-color: #f7f7f7;
+  		text-align: center;}
+
+  		#nav ul :hover {color: #636363;}
+  		#nav ul {margin: 0; padding: 0; list-style: none;}
+
+  		#nav ul li {
+  			display: inline-block;
+  			margin: 0 2em;
+        vertical-align: middle;}
+
+  			#nav ul li a {
+  					display: inline-block;
+  					height: 2.25em;
+  					line-height: 2.25em;
+  					padding: 0 1.25em;
+  					border: 0;
+  					border-radius: 8px;
+  					box-shadow: inset 0 0 0 1px transparent;}
+
+  			#nav ul li a:hover {
+  					background-color: rgba(222, 222, 222, 0.25);}
+
+    #main {background-color: #ffffff; color: #636363;
+      border-bottom-right-radius: 1em;
+      border-bottom-left-radius: 1em;
+      width: 180em;
+      margin-left: 1em;
+      max-width: calc(100% - 4em);
+      padding: 1em;}
+
+
+
+    body{margin-bottom: 100px;}
+
+
+    h3{margin: 30px; border: 30px solid #dddddd; padding: 30px;}
 
 
   </style>
@@ -14,14 +67,30 @@
 
 </head>
 <body>
-  <h1 align="center"><a href="index.html"><p style="margin-top:30px">
-    Jin's <i>Portfolio</i> </a></h1>
-  <ol>
-    <li><a href="1.html">INTRODUCTION</a></li>
-    <li><a href="2.html">AD&PR</a></li>
-    <li><a href="3.html">DHA</a></li>
-  </ol>
-  <h2>WELCOME</h2>
+
+
+  <!-- 해더 -->
+    <header id="header" class="alt">
+      <span class="logo"><img src="main_icon.svg" alt="" /></span>
+      <h1 style="font-family: 'Nunito', sans-serif;">Yujin</h1>
+      <p style="font-family: 'Nunito', sans-serif;"> My College Life Portfolio.<br /></p>
+    </header>
+
+  <!-- 목차 -->
+    <nav id="nav">
+      <ul style="font-family: 'Nunito', sans-serif;">
+        <li><a href="1.html" class="active">INTRODUCTION</a></li>
+        <li><a href="2.html">AD&PR</a></li>
+        <li><a href="3.html">DHA</a></li>
+        <li><a href="#cta">CONTACT</a></li>
+      </ul>
+    </nav>
+
+
+    <!-- Main -->
+      <div id="main">
+
+  <h2 style="font-family: 'Hi Melody', cursive;"font-size: 120%;>WELCOME</h2>
 
   <div class="multi-layout">
   <p>안녕하세요. :)<br><br>
@@ -44,6 +113,7 @@
     Thank you!
   </p>
   </div>
+
 
 </body>
 </html>

@@ -1,44 +1,142 @@
 <!doctype html>
 <html>
 <head>
-  <title>About - JIN</title>
-  <style>
-  body{background: linear-gradient(to right, #a8edea, #fed6e3);}
+  <title>ABOUT_ME</title>
 
-  h2{background-color: #e3f4ff;}
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
+  .multi-layout{column-count: 2;  column-gap: 3px;}
+    body{background: linear-gradient(to right, #a8edea, #fed6e3);}
+
+    #header {padding: 5em 5em 1em 5em ;text-align: center;}
+		    #header h1 {margin: 0 0 0.25em 0;}
+		  #header p {font-size: 1.25em;letter-spacing: -0.025em;}
+		  #header.alt {padding: 7em 5em 4em 5em ;}
+		  #header.alt h1 {font-size: 3.25em;}
+
+    #nav {color: #636363;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+  		width: 180em;
+      margin-left: 1em;
+  		max-width: calc(100% - 4em);
+  		padding: 1em;
+  		background-color: #f7f7f7;
+  		text-align: center;}
+
+  		#nav ul :hover {color: #636363;}
+  		#nav ul {margin: 0; padding: 0; list-style: none;}
+
+  		#nav ul li {
+  			display: inline-block;
+  			margin: 0 2em;
+        vertical-align: middle;}
+
+  			#nav ul li a {
+  					display: inline-block;
+  					height: 2.25em;
+  					line-height: 2.25em;
+  					padding: 0 1.25em;
+  					border: 0;
+  					border-radius: 8px;
+  					box-shadow: inset 0 0 0 1px transparent;}
+
+  			#nav ul li a:hover {
+  					background-color: rgba(222, 222, 222, 0.25);}
+
+    #main {background-color: #ffffff; color: #636363;
+      border-bottom-right-radius: 1em;
+      border-bottom-left-radius: 1em;
+      width: 180em;
+      margin-left: 1em;
+      max-width: calc(100% - 4em);
+      padding: 1em;}
+
+    #table{
+      width: 100%;
+      border-top: 1px solid #444444;
+      border-collapse: collapse;}
+      th, td {border: 1px solid #444444; padding: 15px;}
+
+    body{margin-bottom: 40px;}
+    h1{color: #424242;}
+
+
+    h3{margin: 30px; border: 30px solid #dddddd; padding: 30px;}
+    h7{color: skyblue;}
+
+
+
+  .box {width: 75px;
+      height: 75px;
+      border-radius: 70%;
+      overflow: hidden;
+      margin-left: 30px;
+      margin-top: 30px;}
+
+  .profile {
+      width: 120%;
+      height: 100%;
+      object-fit: cover;}
+
+
+
   </style>
   <meta charset="utf-8">
+
 </head>
 
 <body>
-  <h1 align="center"><a href="index.html"><p style="margin-top:30px">
-    Jin's <i>Portfolio</i></a></h1>
-  <ol>
-    <li><a href="1.html">INTRODUCTION</a></li>
-    <li><a href="2.html">AD&PR</a></li>
-    <li><a href="3.html">DHA</a></li>
-  </ol>
-  <h2>INTRODUCTION</h2>
-  <table border="1">
-    <tr align = center>
-      <th>2019</th>
-      <th>2020</th>
-    </tr>
-    <tr>
-      <td><strong>2019.03</strong> 한림대 광고홍보학과 입학<br><strong>2019.03</strong> 창업동아리 collabofactory 에디터활동
-        <br><strong>2019.10</strong> '유니냥즈'저작권등록 및 굿즈제작 활동
-        <br><strong>2019.11</strong> 2019_HAF_아카이브팀 <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-        <a href="https://www.facebook.com/HallymHAF/videos/420538768635036/" target="_blank" title="수상했던 영상링크">2019_HAF_영상공모전 3등</a>
-      <td><strong>2020.02</strong> 한림대 디지털인문예술입문 복수전공
-    </tr>
-  </table>
-  <p><h3>SKILL</h></p>
-    <h5>adobe 포토샵/일러스트/프리미어 프로, 파이썬, 엑셀, 파워포인트 etc.</h>
 
-  <p><h3>INTEREST&HOBBY</h></p>
-    <h5>필름카메라찍기, 영화보기, 포스터 수집, 캐릭터 만들기, 노래듣기, 네일하기 and more.</h>
+  <div class='box' style = "float:left; margin-right:30px;">
+    <a href="index.html">
+      <img class="profile" src="color_icon.JPG" align='middle'>
+      </a>
+  </div>
+
+  <div style = "float:firght">
+    <br>
+      <h1 style="font-family: 'Nunito', sans-serif;">Yujin's Portfolio Web-Site</h1>
+  </div>
 
 
+<br><br>
+  <!-- 목차 -->
+    <nav id="nav">
+      <ul style="font-family: 'Nunito', sans-serif;">
+        <li><a href="1.html" class="active">INTRODUCTION</a></li>
+        <li><a href="2.html">AD&PR</a></li>
+        <li><a href="3.html">DHA</a></li>
+        <li><a href="#cta">CONTACT</a></li>
+      </ul>
+    </nav>
+
+
+    <!-- Main -->
+      <div id="main">
+
+  <h2  style="font-family: 'Hi Melody', cursive;"font-size: 120%>ABOUT_ME</h2>
+
+  <table border="1" style="border-collapse: collapse;">
+   <tr align = center>
+     <th>2019</th>
+     <th>2020</th>
+   </tr>
+   <tr>
+     <td><strong>2019.03</strong> 한림대 광고홍보학과 입학<br><strong>2019.03</strong> 창업동아리 collabofactory 에디터활동
+       <br><strong>2019.10</strong> '유니냥즈'저작권등록 및 굿즈제작 활동
+       <br><strong>2019.11</strong> 2019_HAF_아카이브팀 <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+       <a href="https://www.facebook.com/HallymHAF/videos/420538768635036/" target="_blank" title="수상했던 영상링크">2019_HAF_영상공모전 3등</a>
+     <td><strong>2020.02</strong> 한림대 디지털인문예술입문 복수전공
+   </tr>
+ </table>
+
+ <strong><p><h7>SKILL</h></p></strong>
+    <h8>adobe 포토샵/일러스트/프리미어 프로, 파이썬, 엑셀, 파워포인트 etc.</h>
+
+<strong><p><h7>INTEREST&HOBBY</h></p></strong>
+    <h8>필름카메라찍기, 영화보기, 포스터 수집, 캐릭터 만들기, 노래듣기, 네일하기 and more.</h>
 
 </body>
 </html>
