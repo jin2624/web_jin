@@ -9,3 +9,5 @@
 ![figma_content](https://user-images.githubusercontent.com/64271216/81187689-5721a580-8fef-11ea-988d-e581cf399236.PNG)
 
 ![color_icon](https://user-images.githubusercontent.com/64271216/81187712-5b4dc300-8fef-11ea-8889-fa6cdd02be78.jpg)
+
+![color_icon](./image/color_icon.jpg)
